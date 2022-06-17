@@ -85,6 +85,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* Created new class tag to apply to all sections of the aside element */
 .benefit1 {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,6 +107,10 @@ p {
     color: #ffffff;
 } */
 
+.benefit1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
 
 /* .benefit-lead h3 {
     margin-bottom: 10px;
@@ -147,8 +153,16 @@ p {
     margin: 10px auto;
     max-width: 150px; */
 
-
-.search-engine-optimization {
+    /* Created a new class for and applied it to all sections of the main element */
+.main1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff; 
+}
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -172,10 +186,13 @@ p {
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
+    color: #ffffff; */
+/* } */
+.main1 img {
+    max-height: 200px;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -185,9 +202,14 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+.main1 h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -199,7 +221,7 @@ p {
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px; */
 }
 
 .footer {
